@@ -1,7 +1,7 @@
 
 
 
-# Supervised Machine Learning Labs from Scratch
+# Supervised Machine Learning Algorithms from Scratch
 
 A hands-on project for implementing foundational supervised machine learning algorithms and labs, based on coursework from Coursera course [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning). This repository includes Jupyter notebooks with self-coded versions of each algorithm.
 
