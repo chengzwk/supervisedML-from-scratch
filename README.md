@@ -1,13 +1,19 @@
 
 
 
-# Supervised Machine Learning Algorithms from Scratch
+# Implement Supervised Machine Learning Algorithms
 
-A hands-on project for implementing foundational supervised machine learning algorithms and labs, based on coursework from Coursera course [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning). This repository includes Jupyter notebooks with self-coded versions of each algorithm.
+A hands-on project for implementing foundational supervised machine learning algorithms, based on coursework from Coursera course [Supervised Machine Learning: Regression and Classification](https://www.coursera.org/learn/machine-learning). This repository includes Jupyter notebooks with self-coded versions of each algorithm. 
 
 ## Description
 
-This project is a personal collection of implementations for supervised machine learning algorithms covered in the Supervised Machine Learning course. While the course provides pre-written code for labs, each algorithm here is coded from scratch to deepen my understanding and practice Python coding. The notebooks include comments and explanations to make each implementation clear and accessible. 
+This project is a personal collection of implementations for supervised machine learning algorithms covered in the Supervised Machine Learning course. While the course provides pre-written code for them algorithms in optional labs, each algorithm here is coded from scratch to deepen my understanding and practice Python coding. The dataset and skeleton code (function names and variable types) are based on the course labs.    
+
+Algorithms implemented:
+* Gradient Descent for univariate linear regression
+* Gradient Descent for multiple linear regression
+* Gradient Descent for logistic regression
+* Gradient Descent with regularization for linear regression and logistic regression
 
 ## Getting Started
 
@@ -15,17 +21,18 @@ This project is a personal collection of implementations for supervised machine 
 
 - Python 3.8+
 - Jupyter Notebook
-- Common libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, `seaborn`
+- Libraries: `numpy`, `matplotlib`
 
 ### Installing
 
 1. Clone this repository:
    ```
-   git clone https://github.com/chengzwk/supervisedML-implementations.git
+   git clone https://github.com/chengzwk/implement-supervisedML.git
    ```
-2. Install the required dependencies:
+2. Install the required libraries:
    ```
-   pip install -r requirements.txt
+   pip install numpy
+   pip install matplotlib
    ```
 
 ### Executing Program
@@ -34,7 +41,7 @@ To view and run the notebooks:
 
 1. Open Jupyter Notebook:
    ```
-   jupyter notebook
+   jupyter-notebook
    ```
 2. Navigate to the desired notebook file and run the cells to execute the code step-by-step.
 
@@ -42,7 +49,7 @@ To view and run the notebooks:
 
 For common issues or troubleshooting:
 
-- Make sure your libraries are updated to the required versions.
+- Make sure your libraries are updated.
 - If you encounter compatibility issues, try setting up a virtual environment with the correct dependencies.
 
 ## Authors
